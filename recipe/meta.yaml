@@ -37,11 +37,11 @@ test:
     - pytest
 
 about:
-  home: "https://github.com/dropbox/pytest-flakefinder"
+  home: https://github.com/dropbox/pytest-flakefinder
   license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
-  summary: "Runs tests multiple times to expose flakiness."
+  summary: Runs tests multiple times to expose flakiness.
   description: |
     When enabled it will 'multiply' your tests so that they get run multiple times without having to restart pytest.
     This helps you find flakiness in your tests.
